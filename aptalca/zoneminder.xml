@@ -2,13 +2,13 @@
 <Containers>
   <Name>Zoneminder</Name>
   <Description>
-    Calibre is  [br][br]
+    Zoneminder is  [br][br]
     [b][u][span style='color: #E80000;']Configuration[/span][/u][/b][br]
     [b]/config[/b] This is where the zoneminder configuration and library files will reside[br][br]
     Don't forget to enter in the host port and app folder.
   </Description>
   <Overview>
-    Calibre is 
+    Zoneminder is 
   </Overview>
   <Support>http://lime-technology.com/forum/index.php?topic=39413.0</Support>
   <Registry>https://registry.hub.docker.com/u/aptalca/docker-zoneminder/</Registry>
