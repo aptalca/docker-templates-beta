@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Containers>
+  <Name>Zoneminder</Name>
+  <Description>
+    Calibre is  [br][br]
+    [b][u][span style='color: #E80000;']Configuration[/span][/u][/b][br]
+    [b]/config[/b] This is where the zoneminder configuration and library files will reside[br][br]
+    Don't forget to enter in the host port and app folder.
+  </Description>
+  <Overview>
+    Calibre is 
+  </Overview>
+  <Support>http://lime-technology.com/forum/index.php?topic=39413.0</Support>
+  <Registry>https://registry.hub.docker.com/u/aptalca/docker-zoneminder/</Registry>
+  <GitHub>https://github.com/aptalca/docker-zoneminder</GitHub>
+  <Repository>aptalca/docker-zoneminder</Repository>
+  <BindTime>true</BindTime>
+  <Privileged>false</Privileged>
+    <Networking>
+    <Mode>bridge</Mode>
+    <Publish>
+      <Port>
+        <HostPort></HostPort>
+        <ContainerPort>80</ContainerPort>
+        <Protocol></Protocol>
+      </Port>
+    </Publish>
+  </Networking>
+  <Environment>
+    <Variable>
+      <Name></Name>
+      <Value></Value>
+    </Variable>
+  </Environment>    
+  <Data>
+    <Volume>
+      <HostDir></HostDir>
+      <ContainerDir>/config</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+  </Data>
+  <WebUI>http://[IP]:[PORT:80]/zm</WebUI>
+  <Banner></Banner>
+  <Icon>http://www.zoneminder.com/sites/zoneminder.com/files/favicon.ico</Icon>
+</Containers>
