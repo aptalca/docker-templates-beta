@@ -13,7 +13,7 @@
     BOINC lets you contribute computing power on your home PC to projects doing research in many scientific areas. You can contribute to a single project, or to any combination of them. RDP-Boinc is a docker for the BOINC manager and client that can be accessed through RDP.
   </Overview>
   <Support>http://lime-technology.com/forum/index.php?topic=39413.0</Support>
-  <Registry>https://registry.hub.docker.com/u/aptalca/docker-rdp-boinc/</Registry>
+  <Registry>https://registry.hub.docker.com/u/aptalca/docker-boinc/</Registry>
   <GitHub>https://github.com/aptalca/docker-rdp-boinc</GitHub>
   <Repository>aptalca/docker-rdp-boinc</Repository>
   <BindTime>true</BindTime>
