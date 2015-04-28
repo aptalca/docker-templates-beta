@@ -27,11 +27,9 @@
         <ContainerPort>3389</ContainerPort>
         <Protocol></Protocol>
       </Port>
-    </Publish>
-    <Publish>
       <Port>
-        <HostPort>8080</HostPort>
-        <ContainerPort></ContainerPort>
+        <HostPort></HostPort>
+        <ContainerPort>8080</ContainerPort>
         <Protocol></Protocol>
       </Port>
     </Publish>
