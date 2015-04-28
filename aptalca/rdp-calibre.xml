@@ -49,5 +49,5 @@
   </Data>
   <WebUI>http://[IP]:[PORT:8080]</WebUI>
   <Banner></Banner>
-  <Icon></Icon>
+  <Icon>http://calibre-ebook.com/favicon.ico</Icon>
 </Containers>
