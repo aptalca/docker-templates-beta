@@ -15,7 +15,7 @@
   <Support>http://lime-technology.com/forum/index.php?topic=39413.0</Support>
   <Registry>https://registry.hub.docker.com/u/aptalca/docker-boinc/</Registry>
   <GitHub>https://github.com/aptalca/docker-rdp-boinc</GitHub>
-  <Repository>aptalca/docker-rdp-boinc</Repository>
+  <Repository>aptalca/docker-boinc</Repository>
   <BindTime>true</BindTime>
   <Privileged>false</Privileged>
     <Networking>
