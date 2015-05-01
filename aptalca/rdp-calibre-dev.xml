@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Containers>
+  <Name>RDP-Calibre-dev</Name>
+  <Description>
+    RDP-Calibre is a combo docker for calibre web server and gui (through webRDP) [br][br]
+    [b][u][span style='color: #E80000;']Configuration[/span][/u][/b][br]
+    [b]/config[/b] This is where the rdp configuration and library files will reside[br][br]
+    Don't forget to enter in the host ports and app folder. [br][br]
+    [span style='color: #E80000;']8080[/span] is the port for the calibre desktop GUI (through webRDP) [br]
+    [span style='color: #E80000;']8081[/span] is the port the calibre server[br]
+    To access the calibre desktop GUI, open the WebUI in unRaid. Both the server and the GUI use the same database in the /config folder.
+  </Description>
+  <Overview>
+    Calibre is an e-book management software. RDP-Calibre is a combo docker for calibre web server and gui (through webRDP). With this docker, you get the best of both worlds, and they both use the same database.
+  </Overview>
+  <Support>http://lime-technology.com/forum/index.php?topic=39413.0</Support>
+  <Registry>https://registry.hub.docker.com/u/aptalca/docker-rdp-calibre-dev/</Registry>
+  <GitHub>https://github.com/aptalca/docker-rdp-calibre/tree/development</GitHub>
+  <Repository>aptalca/docker-rdp-calibre</Repository>
+  <BindTime>true</BindTime>
+  <Privileged>false</Privileged>
+    <Networking>
+    <Mode>bridge</Mode>
+    <Publish>
+      <Port>
+        <HostPort></HostPort>
+        <ContainerPort>8080</ContainerPort>
+        <Protocol></Protocol>
+      </Port>
+      <Port>
+        <HostPort></HostPort>
+        <ContainerPort>8081</ContainerPort>
+        <Protocol></Protocol>
+      </Port>
+    </Publish>
+  </Networking>
+  <Environment>
+    <Variable>
+      <Name></Name>
+      <Value></Value>
+    </Variable>
+  </Environment>    
+  <Data>
+    <Volume>
+      <HostDir></HostDir>
+      <ContainerDir>/config</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+  </Data>
+  <WebUI>http://[IP]:[PORT:8080]</WebUI>
+  <Banner></Banner>
+  <Icon>http://calibre-ebook.com/favicon.ico</Icon>
+</Containers>
