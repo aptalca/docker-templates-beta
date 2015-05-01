@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Containers>
-  <Name>RDP-Boinc</Name>
+  <Name>RDP-Boinc-dev</Name>
   <Description>
     RDP-Boinc is a docker for the BOINC client and manager [br][br]
     [b][u][span style='color: #E80000;']Configuration[/span][/u][/b][br]
