@@ -30,8 +30,8 @@
   </Networking>
   <Environment>
     <Variable>
-      <Name></Name>
-      <Value></Value>
+      <Name>EDGE</Name>
+      <Value>0</Value>
     </Variable>
   </Environment>    
   <Data>
