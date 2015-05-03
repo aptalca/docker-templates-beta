@@ -7,8 +7,7 @@
     [b]/config[/b] This is where the digiKam configuration and library files will reside[br][br]
     Don't forget to enter in the host port, config folder and the pictures location. [br][br]
     [span style='color: #E80000;']8080[/span] is the WebUI port[br]
-    To access the digiKam GUI, open the WebUI.
-    
+    To access the digiKam GUI, open the WebUI. [br][br]
     By default, this will install version 3.5.0, the last stable for ubuntu 14.04. If you want to update to the bleeding edge, open advanced view and set EDGE variable to 1
   </Description>
   <Overview>
