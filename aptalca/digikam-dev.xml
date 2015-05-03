@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Containers>
-  <Name>DigiKam</Name>
+  <Name>DigiKam-dev</Name>
   <Description>
     DigiKam is a docker for the digiKam picture management software [br][br]
     [b][u][span style='color: #E80000;']Configuration[/span][/u][/b][br]
@@ -13,9 +13,9 @@
     DigiKam is an advanced digital photo management application. The people who inspired digiKam's design are the photographers like you who want to view, manage, edit, enhance, organize, tag, and share photographs under Linux systems.
   </Overview>
   <Support>http://lime-technology.com/forum/index.php?topic=39413.0</Support>
-  <Registry>https://registry.hub.docker.com/u/aptalca/docker-digikam/</Registry>
-  <GitHub>https://github.com/aptalca/docker-digikam</GitHub>
-  <Repository>aptalca/docker-digikam</Repository>
+  <Registry>https://registry.hub.docker.com/u/aptalca/docker-digikam-dev/</Registry>
+  <GitHub>https://github.com/aptalca/docker-digikam/tree/development</GitHub>
+  <Repository>aptalca/docker-digikam-dev</Repository>
   <BindTime>true</BindTime>
   <Privileged>false</Privileged>
     <Networking>
