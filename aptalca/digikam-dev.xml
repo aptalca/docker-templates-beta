@@ -8,6 +8,8 @@
     Don't forget to enter in the host port, config folder and the pictures location. [br][br]
     [span style='color: #E80000;']8080[/span] is the WebUI port[br]
     To access the digiKam GUI, open the WebUI.
+    
+    By default, this will install version 3.5.0, the last stable for ubuntu 14.04. If you want to update to the bleeding edge, open advanced view and set EDGE variable to 1
   </Description>
   <Overview>
     DigiKam is an advanced digital photo management application. The people who inspired digiKam's design are the photographers like you who want to view, manage, edit, enhance, organize, tag, and share photographs under Linux systems.
