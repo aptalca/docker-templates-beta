@@ -5,12 +5,12 @@
     DigiKam is a docker for the digiKam picture management software [br][br]
     [b][u][span style='color: #E80000;']Configuration[/span][/u][/b][br]
     [b]/config[/b] This is where the digiKam configuration and library files will reside[br][br]
-    Don't forget to enter in the host port and app folder. [br][br]
+    Don't forget to enter in the host port, config folder and the pictures location. [br][br]
     [span style='color: #E80000;']8080[/span] is the WebUI port[br]
     To access the digiKam GUI, open the WebUI.
   </Description>
   <Overview>
-    
+    DigiKam is an advanced digital photo management application. The people who inspired digiKam's design are the photographers like you who want to view, manage, edit, enhance, organize, tag, and share photographs under Linux systems.
   </Overview>
   <Support>http://lime-technology.com/forum/index.php?topic=39413.0</Support>
   <Registry>https://registry.hub.docker.com/u/aptalca/docker-digikam/</Registry>
@@ -38,6 +38,11 @@
     <Volume>
       <HostDir></HostDir>
       <ContainerDir>/config</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+    <Volume>
+      <HostDir></HostDir>
+      <ContainerDir>/pictures</ContainerDir>
       <Mode>rw</Mode>
     </Volume>
   </Data>
