@@ -32,7 +32,7 @@
   <Environment>
     <Variable>
       <Name>EDGE</Name>
-      <Value></Value>
+      <Value>0</Value>
     </Variable>
   </Environment>    
   <Data>
