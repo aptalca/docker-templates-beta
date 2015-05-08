@@ -40,11 +40,6 @@
       <ContainerDir>/config</ContainerDir>
       <Mode>rw</Mode>
     </Volume>
-    <Volume>
-      <HostDir></HostDir>
-      <ContainerDir>/pictures</ContainerDir>
-      <Mode>rw</Mode>
-    </Volume>
   </Data>
   <WebUI>http://[IP]:[PORT:8080]/#/client/c/JDownloader2</WebUI>
   <Banner></Banner>
