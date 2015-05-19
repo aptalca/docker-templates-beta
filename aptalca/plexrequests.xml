@@ -2,7 +2,7 @@
 <Containers>
   <Name>PlexRequests</Name>
   <Description>
-    PLex Requests [br][br]
+    Simple automated way for users to request new content for Plex [br][br]
     [b][u][span style='color: #E80000;']Configuration[/span][/u][/b][br]
     [b]/config[/b] This is where the PLex Requests configuration and library files will reside[br][br]
     Don't forget to enter in the host port and the config folder location. [br][br]
@@ -10,7 +10,7 @@
     To access the Plex Requests GUI, open the WebUI. [br][br]
   </Description>
   <Overview>
-    Plex Requests
+    Are people constantly asking you to add new content to your Plex Server? Frequent late night texts asking for a new release that's not out yet? Wouldn't it be easier to just send them to a website where they could submit their requests? Enter Plex Requests!
   </Overview>
   <Support>http://lime-technology.com/forum/index.php?topic=39413.0</Support>
   <Registry>https://registry.hub.docker.com/u/aptalca/docker-plexrequets/</Registry>
