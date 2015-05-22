@@ -2,15 +2,15 @@
 <Containers>
   <Name>AmazonEcho-HA-Bridge</Name>
   <Description>
-    Simple automated way for users to request new content for Plex [br][br]
+    Bridge Amazon Echo with your home automation controller for voice control of connected devices (tested with Vera, but should work with any HA device that accepts http commands)[br][br]
     [b][u][span style='color: #E80000;']Configuration[/span][/u][/b][br]
-    [b]/config[/b] This is where the PLex Requests configuration and library files will reside[br][br]
-    Don't forget to enter in the host port and the config folder location. [br][br]
-    [span style='color: #E80000;']3000[/span] is the WebUI port[br]
-    To access the Plex Requests GUI, open the WebUI. [br][br]
+    [b]/config[/b] This is where the  configuration and library files will reside[br][br]
+    Don't forget to enter in the unraid server IP in Advanced View[br][br]
+    See the linked thread for setup instructions: http://forum.micasaverde.com/index.php/topic,31920.msg231970.html#msg231970
   </Description>
   <Overview>
-    Are people constantly asking you to add new content to your Plex Server? Frequent late night texts asking for a new release that's not out yet? Wouldn't it be easier to just send them to a website where they could submit their requests? Enter Plex Requests!
+    Bridge Amazon Echo with your home automation controller for voice control of connected devices (tested with Vera, but should work with any HA device that accepts http commands)[br]
+    See the linked thread for setup instructions: http://forum.micasaverde.com/index.php/topic,31920.msg231970.html#msg231970
   </Overview>
   <Support>http://lime-technology.com/forum/index.php?topic=39413.0</Support>
   <Registry>https://registry.hub.docker.com/u/aptalca/docker-amazon-echo-ha-bridge/</Registry>
