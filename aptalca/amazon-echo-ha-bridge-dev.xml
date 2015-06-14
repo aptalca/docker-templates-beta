@@ -13,9 +13,9 @@
     See the linked thread for setup instructions: http://forum.micasaverde.com/index.php/topic,31920.msg231970.html#msg231970
   </Overview>
   <Support>http://lime-technology.com/forum/index.php?topic=39413.0</Support>
-  <Registry>https://registry.hub.docker.com/u/aptalca/docker-amazon-echo-ha-bridge-dev/</Registry>
+  <Registry>https://registry.hub.docker.com/u/aptalca/docker-amazon-echo-ha-bridge-d/</Registry>
   <GitHub>https://github.com/aptalca/docker-amazon-echo-ha-bridge/tree/development</GitHub>
-  <Repository>aptalca/docker-amazon-echo-ha-bridge-dev</Repository>
+  <Repository>aptalca/docker-amazon-echo-ha-bridge-d</Repository>
   <BindTime>true</BindTime>
   <Privileged>false</Privileged>
     <Networking>
