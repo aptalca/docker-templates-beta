@@ -18,30 +18,17 @@
   <Repository>aptalca/docker-amazon-echo-ha-bridge-d</Repository>
   <BindTime>true</BindTime>
   <Privileged>false</Privileged>
-    <Networking>
-    <Mode>bridge</Mode>
-    <Publish>
-      <Port>
-        <HostPort></HostPort>
-        <ContainerPort>8080</ContainerPort>
-        <Protocol></Protocol>
-      </Port>
-      <Port>
-        <HostPort>1900</HostPort>
-        <ContainerPort>1900</ContainerPort>
-        <Protocol></Protocol>
-      </Port>
-      <Port>
-        <HostPort>50000</HostPort>
-        <ContainerPort>50000</ContainerPort>
-        <Protocol></Protocol>
-      </Port>
-    </Publish>
+  <Networking>
+    <Mode>host</Mode>
   </Networking>
   <Environment>
     <Variable>
       <Name>SERVERIP</Name>
       <Value></Value>
+    </Variable>
+    <Variable>
+      <Name>SERVERPORT</Name>
+      <Value>3001</Value>
     </Variable>
   </Environment>    
   <Data>
@@ -51,7 +38,7 @@
       <Mode>rw</Mode>
     </Volume>
   </Data>
-  <WebUI>http://[IP]:[PORT:8080]/configurator.html</WebUI>
+  <WebUI>http://[IP]:3001/configurator.html</WebUI>
   <Banner></Banner>
   <Icon>http://www.cdrinfo.com/Images/Uploaded/Amazon_Echo_logo_120.jpg</Icon>
 </Containers>
