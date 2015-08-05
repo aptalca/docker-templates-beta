@@ -30,11 +30,11 @@
   </Networking>
   <Environment>
     <Variable>
-      <Name>SUBDOMAINS</Name>
+      <Name></Name>
       <Value></Value>
     </Variable>
     <Variable>
-      <Name>TOKEN</Name>
+      <Name></Name>
       <Value></Value>
     </Variable>
   </Environment>    
