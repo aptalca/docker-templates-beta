@@ -30,7 +30,7 @@
   </Networking>
   <Environment>
     <Variable>
-      <Name>SUBDOMAIN</Name>
+      <Name>SUBDOMAINS</Name>
       <Value></Value>
     </Variable>
     <Variable>
