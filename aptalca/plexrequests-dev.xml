@@ -31,8 +31,8 @@
   </Networking>
   <Environment>
     <Variable>
-      <Name></Name>
-      <Value></Value>
+      <Name>BRANCH</Name>
+      <Value>master</Value>
     </Variable>
   </Environment>    
   <Data>
