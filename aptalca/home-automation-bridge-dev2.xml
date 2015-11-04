@@ -11,9 +11,9 @@
     Bridge Amazon Echo with your home automation controller or Harmony Hub for voice control of connected devices (Vera devices retrieved automatically))[br]
   </Overview>
   <Support>http://lime-technology.com/forum/index.php?topic=39413.0</Support>
-  <Registry>https://registry.hub.docker.com/u/aptalca/home-automation-bridge-dev/</Registry>
+  <Registry>https://registry.hub.docker.com/u/aptalca/ha-bridge-dev/</Registry>
   <GitHub>https://github.com/aptalca/docker-ha-bridge/tree/development</GitHub>
-  <Repository>aptalca/home-automation-bridge-dev</Repository>
+  <Repository>aptalca/ha-bridge-dev</Repository>
   <BindTime>true</BindTime>
   <Privileged>false</Privileged>
   <Networking>
