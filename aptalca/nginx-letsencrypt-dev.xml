@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Containers>
-  <Name>Nginx-letsencrypt</Name>
+  <Name>Nginx-letsencrypt-dev</Name>
   <Description>
     Nginx based webserver with a built-in letsencrypt client that automates free SSL certificate generation and renewal processes. [br][br]
     [b][u][span style='color: #E80000;']Configuration[/span][/u][/b][br]
@@ -13,9 +13,9 @@
     Nginx based webserver with a built-in letsencrypt client that automates free SSL certificate generation and renewal processes.
   </Overview>
   <Support>http://lime-technology.com/forum/index.php?topic=39413.0</Support>
-  <Registry>https://registry.hub.docker.com/u/aptalca/nginx-letsencrypt/</Registry>
+  <Registry>https://registry.hub.docker.com/u/aptalca/nginx-letsencrypt-dev/</Registry>
   <GitHub>https://github.com/aptalca/docker-webserver</GitHub>
-  <Repository>aptalca/nginx-letsencrypt</Repository>
+  <Repository>aptalca/nginx-letsencrypt-dev</Repository>
   <BindTime>true</BindTime>
   <Privileged>false</Privileged>
     <Networking>
@@ -41,6 +41,10 @@
     <Variable>
       <Name>URL</Name>
       <Value></Value>
+    </Variable>
+    <Variable>
+      <Name>SUBDOMAINS</Name>
+      <Value>www</Value>
     </Variable>
   </Environment>    
   <Data>
