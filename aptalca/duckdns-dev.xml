@@ -13,9 +13,9 @@
     Unlike most other free dynamic DNS providers, DuckDNS accounts do not require periodic user action to keep them alive. Visit [b]www.duckdns.org[/b] to register your domain.
   </Overview>
   <Support>http://lime-technology.com/forum/index.php?topic=39413.0</Support>
-  <Registry>https://registry.hub.docker.com/u/aptalca/docker-duckdns/</Registry>
-  <GitHub>https://github.com/aptalca/docker-duckdns</GitHub>
-  <Repository>aptalca/docker-duckdns</Repository>
+  <Registry>https://registry.hub.docker.com/u/aptalca/ls.io-duckdns/</Registry>
+  <GitHub>https://github.com/aptalca/ls.io-duckdns</GitHub>
+  <Repository>aptalca/ls.io-duckdns</Repository>
   <BindTime>true</BindTime>
   <Privileged>false</Privileged>
     <Networking>
