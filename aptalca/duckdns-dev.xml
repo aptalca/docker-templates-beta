@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Containers>
-  <Name>Duckdns-dev</Name>
+  <Name>Duckdns-Dev</Name>
   <Description>
     Duckdns is a free dynamic DNS service hosted on Amazon VPC.[br][br]
     [b][u][span style='color: #E80000;']Configuration[/span][/u][/b][br]
     [b]/config[/b] This is where the duckdns configuration and log files will reside[br][br]
-    Don't forget to modify the duck.conf file with your domain and token variables in the config folder.[br][br]
+    Enter in the subdomains (comma separated, no spaces) and token in the advanced view. [br][br]
     Visit [b]www.duckns.org[/b] to register a domain and retrieve your token[br]
   </Description>
   <Overview>
@@ -13,9 +13,9 @@
     Unlike most other free dynamic DNS providers, DuckDNS accounts do not require periodic user action to keep them alive. Visit [b]www.duckdns.org[/b] to register your domain.
   </Overview>
   <Support>http://lime-technology.com/forum/index.php?topic=39413.0</Support>
-  <Registry>https://registry.hub.docker.com/u/aptalca/docker-duckdns-dev/</Registry>
-  <GitHub>https://github.com/aptalca/docker-duckdns/tree/development</GitHub>
-  <Repository>aptalca/docker-duckdns-dev</Repository>
+  <Registry>https://registry.hub.docker.com/u/aptalca/docker-duckdns/</Registry>
+  <GitHub>https://github.com/aptalca/docker-duckdns</GitHub>
+  <Repository>aptalca/docker-duckdns</Repository>
   <BindTime>true</BindTime>
   <Privileged>false</Privileged>
     <Networking>
@@ -30,24 +30,21 @@
   </Networking>
   <Environment>
     <Variable>
-      <Name></Name>
+      <Name>SUBDOMAINS</Name>
       <Value></Value>
     </Variable>
     <Variable>
-      <Name></Name>
+      <Name>TOKEN</Name>
       <Value></Value>
     </Variable>
   </Environment>    
-  <Data>
-    <Volume>
-      <HostDir></HostDir>
-      <ContainerDir>/config</ContainerDir>
-      <Mode>rw</Mode>
-    </Volume>
-  </Data>
   <WebUI></WebUI>
   <Banner></Banner>
   <Icon>https://duckdns.org/img/ducky_icon.png</Icon>
   <Beta>False</Beta>
   <Category>Network:DNS</Category>
+  <Date>2016-03-25</Date>
+  <Changes>
+    [center][font size=5]DuckDNS Change Log[/font][/center]
+  </Changes>
 </Containers>
