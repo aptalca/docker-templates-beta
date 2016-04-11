@@ -42,10 +42,6 @@
       <Name>URL</Name>
       <Value></Value>
     </Variable>
-    <Variable>
-      <Name>SUBDOMAINS</Name>
-      <Value>www</Value>
-    </Variable>
   </Environment>    
   <Data>
     <Volume>
