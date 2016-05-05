@@ -35,30 +35,6 @@
       <Name>SERVERPORT</Name>
       <Value>3080</Value>
     </Variable>
-    <Variable>
-      <Name>VERAIP</Name>
-      <Value>None</Value>
-    </Variable>
-    <Variable>
-      <Name>HARMONYIP</Name>
-      <Value>None</Value>
-    </Variable>
-    <Variable>
-      <Name>HARMONYUSER</Name>
-      <Value>None</Value>
-    </Variable>
-    <Variable>
-      <Name>HARMONYPWD</Name>
-      <Value>None</Value>
-    </Variable>
-    <Variable>
-      <Name>UPNPSTRICT</Name>
-      <Value>true</Value>
-    </Variable>
-    <Variable>
-      <Name>UPNPTRACE</Name>
-      <Value>false</Value>
-    </Variable>
   </Environment>    
   <Data>
     <Volume>
